@@ -1,0 +1,132 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'node-static' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json multiVideo@0.0.0-5 No description
+5 warn package.json multiVideo@0.0.0-5 No repository field.
+6 warn package.json multiVideo@0.0.0-5 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'node-static', null ]
+9 verbose cache add name=undefined spec="node-static" args=["node-static",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'node-static',
+10 verbose parsed url   path: 'node-static',
+10 verbose parsed url   href: 'node-static' }
+11 silly lockFile 17070c41-node-static node-static
+12 verbose lock node-static /root/.npm/17070c41-node-static.lock
+13 silly lockFile 17070c41-node-static node-static
+14 silly lockFile 17070c41-node-static node-static
+15 verbose addNamed [ 'node-static', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 5704b874-node-static node-static@
+18 verbose lock node-static@ /root/.npm/5704b874-node-static.lock
+19 silly addNameRange { name: 'node-static', range: '*', hasData: false }
+20 verbose url raw node-static
+21 verbose url resolving [ 'https://registry.npmjs.org/', './node-static' ]
+22 verbose url resolved https://registry.npmjs.org/node-static
+23 info trying registry request attempt 1 at 00:20:13
+24 verbose etag "555KYV0QHPJN5GK1IDGV3N0X7"
+25 http GET https://registry.npmjs.org/node-static
+26 http 200 https://registry.npmjs.org/node-static
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Sun, 01 Feb 2015 23:20:06 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"15RO0JHAZV0T0NNAYI0BK5CNT"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=60',
+27 silly registry.get     'content-length': '32392',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-ams4130-AMS',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1422832805.899612,VS0,VE620',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'node-static', range: '*', hasData: true }
+29 silly addNameRange versions [ 'node-static',
+29 silly addNameRange   [ '0.5.6',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.5.8',
+29 silly addNameRange     '0.5.9',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.6.7',
+29 silly addNameRange     '0.6.8',
+29 silly addNameRange     '0.6.9',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4',
+29 silly addNameRange     '0.7.5',
+29 silly addNameRange     '0.7.6' ] ]
+30 verbose addNamed [ 'node-static', '0.7.6' ]
+31 verbose addNamed [ '0.7.6', '0.7.6' ]
+32 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+33 verbose lock node-static@0.7.6 /root/.npm/04f479d4-node-static-0-7-6.lock
+34 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+35 silly lockFile 04f479d4-node-static-0-7-6 node-static@0.7.6
+36 silly lockFile 5704b874-node-static node-static@
+37 silly lockFile 5704b874-node-static node-static@
+38 silly resolved [ { name: 'node-static',
+38 silly resolved     description: 'simple, compliant file streaming module for node',
+38 silly resolved     url: 'http://github.com/cloudhead/node-static',
+38 silly resolved     keywords: [ 'http', 'static', 'file', 'server' ],
+38 silly resolved     author: { name: 'Alexis Sellier', email: 'self@cloudhead.net' },
+38 silly resolved     contributors: [ [Object], [Object] ],
+38 silly resolved     repository: { type: 'git', url: 'http://github.com/cloudhead/node-static' },
+38 silly resolved     main: './lib/node-static',
+38 silly resolved     scripts: { test: 'vows --spec --isolate' },
+38 silly resolved     bin: { static: 'bin/cli.js' },
+38 silly resolved     license: 'MIT',
+38 silly resolved     dependencies: { optimist: '>=0.3.4', colors: '>=0.6.0', mime: '>=1.2.9' },
+38 silly resolved     devDependencies: { request: 'latest', vows: 'latest' },
+38 silly resolved     version: '0.7.6',
+38 silly resolved     engines: { node: '>= 0.4.1' },
+38 silly resolved     bugs: { url: 'https://github.com/cloudhead/node-static/issues' },
+38 silly resolved     homepage: 'https://github.com/cloudhead/node-static',
+38 silly resolved     directories: { example: 'examples', test: 'test' },
+38 silly resolved     readme: 'node-static\n===========\n\n> a simple, *rfc 2616 compliant* file streaming module for [node](http://nodejs.org)\n\nnode-static understands and supports *conditional GET* and *HEAD* requests.\nnode-static was inspired by some of the other static-file serving modules out there,\nsuch as node-paperboy and antinode.\n\nSynopsis\n--------\n\n```js\nvar static = require(\'node-static\');\n\n//\n// Create a node-static server instance to serve the \'./public\' folder\n//\nvar file = new static.Server(\'./public\');\n\nrequire(\'http\').createServer(function (request, response) {\n    request.addListener(\'end\', function () {\n        //\n        // Serve files!\n        //\n        file.serve(request, response);\n    }).resume();\n}).listen(8080);\n```\n\nAPI\n---\n\n### Creating a node-static Server #\n\nCreating a file server instance is as simple as:\n\n```js\nnew static.Server();\n```\n\nThis will serve files in the current directory. If you want to serve files in a specific\ndirectory, pass it as the first argument:\n\n```js\nnew static.Server(\'./public\');\n```\n\nYou can also specify how long the client is supposed to cache the files node-static serves:\n\n```js\nnew static.Server(\'./public\', { cache: 3600 });\n```\n\nThis will set the `Cache-Control` header, telling clients to cache the file for an hour.\nThis is the default setting.\n\n### Serving files under a directory #\n\nTo serve files under a directory, simply call the `serve` method on a `Server` instance, passing it\nthe HTTP request and response object:\n\n```js \nvar static = require(\'node-static\');\n\nvar fileServer = new static.Server(\'./public\');\n\nrequire(\'http\').createServer(function (request, response) {\n    request.addListener(\'end\', function () {\n        fileServer.serve(request, response);\n    }).resume();\n}).listen(8080);\n```\n\n### Serving specific files #\n\nIf you want to serve a specific file, like an error page for example, use the `serveFile` method:\n\n```js\nfileServer.serveFile(\'/error.html\', 500, {}, request, response);\n```\n\nThis will serve the `error.html` file, from under the file root directory, with a `500` status code.\nFor example, you could serve an error page, when the initial request wasn\'t found:\n\n```js\nrequire(\'http\').createServer(function (request, response) {\n    request.addListener(\'end\', function () {\n        fileServer.serve(request, response, function (e, res) {\n            if (e && (e.status === 404)) { // If the file wasn\'t found\n                fileServer.serveFile(\'/not-found.html\', 404, {}, request, response);\n            }\n        });\n    }).resume();\n}).listen(8080);\n```\n\nMore on intercepting errors bellow.\n\n### Intercepting errors & Listening #\n\nAn optional callback can be passed as last argument, it will be called every time a file\nhas been served successfully, or if there was an error serving the file:\n\n```js\nvar static = require(\'node-static\');\n    \nvar fileServer = new static.Server(\'./public\');\n\nrequire(\'http\').createServer(function (request, response) {\n    request.addListener(\'end\', function () {\n        fileServer.serve(request, response, function (err, result) {\n            if (err) { // There was an error serving the file\n                sys.error("Error serving " + request.url + " - " + err.message);\n\n                // Respond to the client\n                response.writeHead(err.status, err.headers);\n                response.end();\n            }\n        });\n    }).resume();\n}).listen(8080);\n```\n\nNote that if you pass a callback, and there is an error serving the file, node-static\n*will not* respond to the client. This gives you the opportunity to re-route the request,\nor handle it differently.\n\nFor example, you may want to interpret a request as a static request, but if the file isn\'t found,\nsend it to an application.\n\nIf you only want to *listen* for errors, you can use *event listeners*:\n\n```js\nfileServer.serve(request, response).addListener(\'error\', function (err) {\n    sys.error("Error serving " + request.url + " - " + err.message);\n});\n```\n\nWith this method, you don\'t have to explicitly send the response back, in case of an error.\n\n### Options when creating an instance of `Server` #\n\n#### `cache` #\n\nSets the `Cache-Control` header.\n\nexample: `{ cache: 7200 }`\n\nPassing a number will set the cache duration to that number of seconds.\nPassing `false` will disable the `Cache-Control` header.\n\n> Defaults to `3600`\n\n\n#### `serverInfo` #\n\nSets the `Server` header.\n\nexample: `{ serverInfo: "myserver" }`\n\n> Defaults to `node-static/{version}`\n\n#### `headers` #\n\nSets response headers.\n\nexample: `{ \'X-Hello\': \'World!\' }`\n\n> defaults to `{}`\n\n#### `gzip` #\n\nEnable support for sending compressed responses.  This will enable a check for a\nfile with the same name plus \'.gz\' in the same folder.  If the compressed file is\nfound and the client has indicated support for gzip file transfer, the contents\nof the .gz file will be sent in place of the uncompressed file along with a\nContent-Encoding: gzip header to inform the client the data has been compressed.\n\nexample: `{ gzip: true }`\nexample: `{ gzip: /^\\/text/ }`\n\nPassing `true` will enable this check for all files.\nPassing a RegExp instance will only enable this check if the content-type of the\nrespond would match that RegExp using its test() method.\n\n> Defaults to `false`\n\n\nCommand Line Interface\n----------------------\n\n`node-static` also provides a CLI.\n\n### Installation #\n\n```sh\n$ npm install -g node-static\n```\n\n### Example Usage #\n\n```sh\n# serve up the current directory\n$ static\nserving "." at http://127.0.0.1:8080\n\n# serve up a different directory\n$ static public\nserving "public" at http://127.0.0.1:8080\n\n# specify additional headers (this one is useful for development)\n$ static -H \'{"Cache-Control": "no-cache, must-revalidate"}\'\nserving "." at http://127.0.0.1:8080\n\n# set cache control max age\n$ static -c 7200\nserving "." at http://127.0.0.1:8080\n\n# expose the server to your local network\n$ static -a 0.0.0.0\nserving "." at http://0.0.0.0:8080\n\n# show help message, including all options\n$ static -h\n```\n',
+38 silly resolved     readmeFilename: 'README.md',
+38 silly resolved     _id: 'node-static@0.7.6',
+38 silly resolved     _from: 'node-static@' } ]
+39 info install node-static@0.7.6 into /home/rodrigo/multiVideo
+40 info installOne node-static@0.7.6
+41 info /home/rodrigo/multiVideo/node_modules/node-static unbuild
+42 info preuninstall node-static@0.7.6
+43 info uninstall node-static@0.7.6
+44 verbose true,/home/rodrigo/multiVideo/node_modules,/home/rodrigo/multiVideo/node_modules unbuild node-static@0.7.6
+45 verbose /home/rodrigo/multiVideo/node_modules/.bin,[object Object] binRoot
+46 info /home/rodrigo/multiVideo/node_modules/node-static unbuild
+47 info preuninstall node-static@0.7.6
+48 info uninstall node-static@0.7.6
+49 verbose true,/home/rodrigo/multiVideo/node_modules,/home/rodrigo/multiVideo/node_modules unbuild node-static@0.7.6
+50 verbose /home/rodrigo/multiVideo/node_modules/.bin,[object Object] binRoot
+51 info postuninstall node-static@0.7.6
+52 error Refusing to delete: /home/rodrigo/multiVideo/node_modules/.bin/static not in /home/rodrigo/multiVideo/node_modules/node-static
+File exists: /home/rodrigo/multiVideo/node_modules/.bin/static
+Move it away, and try again.
+53 error System Linux 3.13.0-45-generic
+54 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "node-static"
+55 error cwd /home/rodrigo/multiVideo
+56 error node -v v0.10.25
+57 error npm -v 1.3.10
+58 error path /home/rodrigo/multiVideo/node_modules/.bin/static
+59 error code EEXIST
+60 verbose exit [ 1, true ]
